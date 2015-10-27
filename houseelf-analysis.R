@@ -1,0 +1,1 @@
+##Analysis to determine GC content of DNA in comparison to houseelf ear length
