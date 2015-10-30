@@ -1,3 +1,7 @@
+install.packages("stringr")
+library("stringr")
+
+
 ##Analysis to determine GC content of DNA in comparison to houseelf ear length
 elf_data <- read.csv("houseelf_earlength_dna_data_1.csv", header=T)
 elf_dna <- elf_data$dnaseq
@@ -6,9 +10,6 @@ elf_dna <- elf_data$dnaseq
 
 
 ##Problem 6
-
-install.packages("stringr")
-library("stringr")
 
 str_to_upper(elf_dna)
 content <- function(seq){
