@@ -1,5 +1,5 @@
 ##Analysis to determine GC content of DNA in comparison to houseelf ear length
-elf_data <- read.csv("houseelf_earlength_dna_data.csv", header=T)
+elf_data <- read.csv("houseelf_earlength_dna_data_1.csv", header=T)
 elf_dna <- elf_data$dnaseq
 
 
